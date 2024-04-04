@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(FONDO.jpg);
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.formulario {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.butom{
+    margin-left: 30%;
+}
+
+h1 {
+    color: rgb(0, 26, 255);
+    text-align: center;
+}
+
+.escalera {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.block {
+    width: 100px; /* Ancho de los bloques */
+    height: 80px; /* Alto de los bloques */
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 1px; /* Espacio entre bloques */
+    margin-bottom: 3px;
+}
+
+h2{
+    background-color: #f2f2f2; /* Fondo gris claro */
+    border: 1px solid black; /* Borde negro */
+    border-radius: 10px; /* Radio de borde redondeado */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo de letra */
+    font-size: 40px; /* Tamaño de la fuente */
+    color: rgb(0, 0, 255); /* Color de las letras dorado */
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 5px;
+}
+
+.alerta{
+    background-color: #f2f2f2; /* Fondo gris claro */
+    border: 1px solid black; /* Borde negro */
+    border-radius: 10px; /* Radio de borde redondeado */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo de letra */
+    font-size: 50px; /* Tamaño de la fuente */
+    color: rgb(255, 0, 0); /* Color de las letras dorado */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.oracion{
+    background-color: #f2f2f2; /* Fondo gris claro */
+    border: 1px solid black; /* Borde negro */
+    border-radius: 10px; /* Radio de borde redondeado */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo de letra */
+    font-size: 30px; /* Tamaño de la fuente */
+    color: rgb(0, 0, 255); /* Color de las letras dorado */
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}

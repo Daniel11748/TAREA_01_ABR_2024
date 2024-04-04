@@ -1,0 +1,42 @@
+
+body {
+    background-image: url(FONDO.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed;
+    font-family: "Great Vibes", cursive;
+   font-weight: 100;
+   font-size: 25px;
+}
+
+.matriz {
+   background-color: rgb(7, 145, 0);
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   margin-top: 2cm;
+   display: inline-block;
+}
+
+.casilla {
+   min-width: 50px;
+   height: 30px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #cccccc;
+   background:  #d5d73a;
+   color: #000000; /* Color de los números */
+   margin: 2px;
+   font-family: "Great Vibes", cursive;
+   font-weight: 100;
+   font-size: 25px;
+   white-space: nowrap; /* Evita que el contenido se rompa en varias líneas */
+}
+
+
